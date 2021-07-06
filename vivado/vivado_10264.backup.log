@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Apr 20 18:31:41 2020
+# Process ID: 10264
+# Current directory: L:/redpitaya_seq/red-pitaya-notes-master/tmp
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20188 L:\redpitaya_seq\red-pitaya-notes-master\tmp\sdr_receiver.xpr
+# Log file: L:/redpitaya_seq/red-pitaya-notes-master/tmp/vivado.log
+# Journal file: L:/redpitaya_seq/red-pitaya-notes-master/tmp\vivado.jou
+#----------------------------------------------------------start_gui
+open_project L:/redpitaya_seq/red-pitaya-notes-master/tmp/sdr_receiver.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'l:/redpitaya_seq/red-pitaya-notes-master/ip_repo/myipmain_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'l:/redpitaya_seq/red-pitaya-notes-master/ip_repo/myip_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'l:/redpitaya_seq/red-pitaya-notes-master/ip_repo/myip_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'l:/redpitaya_seq/red-pitaya-notes-master/ip_repo/myip_1.0'. The path is contained within another repository.
+ININFO: [IP_Flow 19-1700] Loaded user IP repository 'l:/redpitaya_seq/red-pitaya-notes-master/cores/comparator'ININFO: [IP_Flow 19-1700] Loaded user IP repository 'l:/redpitaya_seq/red-pitaya-notes-master/tmp/cores'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'l:/redpitaya_seq/red-pitaya-notes-master/cores/numpot'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'l:/redpitaya_seq/red-pitaya-notes-master/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx2/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:lenet:1.0'. The one found in IP location 'l:/redpitaya_seq/red-pitaya-notes-master/cores/comparator/xilinx_com_hls_lenet_1_0' will take precedence over the same IP in location l:/redpitaya_seq/red-pitaya-notes-master/ip_repo/LeNet_wrapper/LeNet/solution1/impl/ip
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:minmax:1.0'. The one found in IP location 'l:/redpitaya_seq/red-pitaya-notes-master/ip_repo/minmax' will take precedence over the same IP in location l:/redpitaya_seq/red-pitaya-notes-master/ip_repo/minmax_1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:mycomp:1.0'. The one found in IP location 'l:/redpitaya_seq/red-pitaya-notes-master/ip_repo/mycomp_1' will take precedence over the same IP in location l:/redpitaya_seq/red-pitaya-notes-master/ip_repo/mycomp
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:29 . Memory (MB): peak = 764.379 ; gain = 159.371
+update_compile_order -fileset sources_1
+open_bd_design {L:/redpitaya_seq/red-pitaya-notes-master/tmp/sdr_receiver.srcs/sources_1/bd/system/system.bd}
+Adding component instance block -- pavel-demin:user:axi_cfg_register:1.0 - cfg_0
+Adding component instance block -- pavel-demin:user:axi_sts_register:1.0 - axi_sts_register_0
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - ps_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - pll_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_0
+Adding component instance block -- pavel-demin:user:axi_bram_writer:1.0 - axi_bram_writer_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_1
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - pll_1
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_0
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_2
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - soft
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - ttl
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - raz
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - qspi
+Adding component instance block -- xilinx.com:ip:c_addsub:12.0 - c_addsub_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - update
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - count_step
+Adding component instance block -- xilinx.com:ip:c_addsub:12.0 - c_addsub_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - updt_ctrl
+Adding component instance block -- xilinx.com:ip:c_addsub:12.0 - c_addsub_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - reset_soft
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - reset_ctrl
+Adding component instance block -- xilinx.com:ip:c_addsub:12.0 - c_addsub_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - ttl_ctrl
+Adding component instance block -- syrte:volodimer:mycore:1.0 - mycore_1
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - pll_2
+WARNING: [BD 41-1731] Type mismatch between connected pins: /mycore_1/CLK(clk) and /ila_0/probe1(undef)
+Successfully read diagram <system> from BD file <L:/redpitaya_seq/red-pitaya-notes-master/tmp/sdr_receiver.srcs/sources_1/bd/system/system.bd>
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 863.938 ; gain = 34.957
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 20 18:34:07 2020...
