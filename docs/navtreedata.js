@@ -22,12 +22,29 @@
 
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
-var menudata={children:[
-{text:"Main Page",url:"index.html"},
-{text:"Related Pages",url:"pages.html"},
-{text:"Design Unit List",url:"annotated.html",children:[
-{text:"Design Unit List",url:"annotated.html"},
-{text:"Design Units",url:"classes.html"},
-{text:"Design Unit Members",url:"functions.html",children:[
-{text:"All",url:"functions.html"},
-{text:"Functions/Procedures/Processes",url:"functions_func.html"}]}]}]}
+var NAVTREE =
+[
+  [ "AD9852_SEQ", "index.html", [
+    [ "Drawing Shapes", "index.html", "index" ],
+    [ "Design Unit List", "annotated.html", [
+      [ "Design Unit List", "annotated.html", "annotated_dup" ],
+      [ "Design Units", "classes.html", null ],
+      [ "Design Unit Members", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Functions/Procedures/Processes", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
+    ] ]
+  ] ]
+];
+
+var NAVTREEINDEX =
+[
+"annotated.html"
+];
+
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';
