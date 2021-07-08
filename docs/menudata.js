@@ -30,6 +30,33 @@ var menudata={children:[
 {text:"Design Units",url:"classes.html"},
 {text:"Design Unit Hierarchy",url:"hierarchy.html"},
 {text:"Design Unit Members",url:"functions.html",children:[
-{text:"All",url:"functions.html"},
-{text:"Functions/Procedures/Processes",url:"functions_func.html"},
-{text:"Variables",url:"functions_vars.html"}]}]}]}
+{text:"All",url:"functions.html",children:[
+{text:"_",url:"functions.html#index__5F"},
+{text:"b",url:"functions.html#index_b"},
+{text:"c",url:"functions.html#index_c"},
+{text:"d",url:"functions.html#index_d"},
+{text:"e",url:"functions.html#index_e"},
+{text:"f",url:"functions.html#index_f"},
+{text:"g",url:"functions.html#index_g"},
+{text:"i",url:"functions.html#index_i"},
+{text:"o",url:"functions.html#index_o"},
+{text:"r",url:"functions.html#index_r"},
+{text:"s",url:"functions.html#index_s"},
+{text:"t",url:"functions.html#index_t"},
+{text:"u",url:"functions.html#index_u"}]},
+{text:"Functions/Procedures/Processes",url:"functions_func.html",children:[
+{text:"_",url:"functions_func.html#index__5F"},
+{text:"b",url:"functions_func.html#index_b"},
+{text:"c",url:"functions_func.html#index_c"},
+{text:"d",url:"functions_func.html#index_d"},
+{text:"e",url:"functions_func.html#index_e"},
+{text:"g",url:"functions_func.html#index_g"},
+{text:"i",url:"functions_func.html#index_i"},
+{text:"o",url:"functions_func.html#index_o"},
+{text:"r",url:"functions_func.html#index_r"},
+{text:"s",url:"functions_func.html#index_s"},
+{text:"t",url:"functions_func.html#index_t"},
+{text:"u",url:"functions_func.html#index_u"}]},
+{text:"Variables",url:"functions_vars.html"}]}]},
+{text:"Files",url:"files.html",children:[
+{text:"File List",url:"files.html"}]}]}
